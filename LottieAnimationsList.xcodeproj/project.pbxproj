@@ -13,6 +13,8 @@
 		49601AD92D56788F00FAC8A4 /* LottieAnimationsListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49601AD42D56788F00FAC8A4 /* LottieAnimationsListApp.swift */; };
 		49601AE02D567A8500FAC8A4 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 49601ADF2D567A8500FAC8A4 /* Lottie */; };
 		49601AE22D567D5000FAC8A4 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49601AE12D567D5000FAC8A4 /* LottieView.swift */; };
+		49B86A612D5A8425006B4E02 /* Animation - 1739213824090.json in Resources */ = {isa = PBXBuildFile; fileRef = 49B86A602D5A8425006B4E02 /* Animation - 1739213824090.json */; };
+		49B86A632D5A8431006B4E02 /* Animation - 1739213902681.json in Resources */ = {isa = PBXBuildFile; fileRef = 49B86A622D5A8431006B4E02 /* Animation - 1739213902681.json */; };
 		49F1B1852D568940006D2935 /* Animation - 1738952984912.json in Resources */ = {isa = PBXBuildFile; fileRef = 49F1B1842D568940006D2935 /* Animation - 1738952984912.json */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		49601AD32D56788F00FAC8A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49601AD42D56788F00FAC8A4 /* LottieAnimationsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsListApp.swift; sourceTree = "<group>"; };
 		49601AE12D567D5000FAC8A4 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		49B86A602D5A8425006B4E02 /* Animation - 1739213824090.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1739213824090.json"; sourceTree = "<group>"; };
+		49B86A622D5A8431006B4E02 /* Animation - 1739213902681.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1739213902681.json"; sourceTree = "<group>"; };
 		49F1B1842D568940006D2935 /* Animation - 1738952984912.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1738952984912.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				49F1B1842D568940006D2935 /* Animation - 1738952984912.json */,
+				49B86A622D5A8431006B4E02 /* Animation - 1739213902681.json */,
+				49B86A602D5A8425006B4E02 /* Animation - 1739213824090.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -164,6 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B86A632D5A8431006B4E02 /* Animation - 1739213902681.json in Resources */,
+				49B86A612D5A8425006B4E02 /* Animation - 1739213824090.json in Resources */,
 				49601AD62D56788F00FAC8A4 /* Preview Assets.xcassets in Resources */,
 				49601AD72D56788F00FAC8A4 /* Assets.xcassets in Resources */,
 				49F1B1852D568940006D2935 /* Animation - 1738952984912.json in Resources */,
