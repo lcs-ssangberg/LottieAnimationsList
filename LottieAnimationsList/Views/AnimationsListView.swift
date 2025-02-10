@@ -9,13 +9,23 @@ import SwiftUI
 
 struct AnimationsListView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        NavigationStack {
+            
+            List(favorites) { favorite in
+                
+                NavigationLink {
+                    LottieView(animationNamed: favorite.fileName)
+                        .navigationTitle(favorite.description)
+                } label: {
+                    Text(favorite.description)
+                }
+                
+            }
+            
+            .navigationTitle("Favorite Animations")
+            
         }
-        .padding()
     }
 }
 
